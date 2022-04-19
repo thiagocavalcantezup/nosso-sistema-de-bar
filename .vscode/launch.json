@@ -1,0 +1,15 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-NossoSistemaDeBaresApplication<nosso-sistema-de-bares>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "br.com.zup.edu.nossosistemadebares.NossoSistemaDeBaresApplication",
+      "projectName": "nosso-sistema-de-bares",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
