@@ -9,6 +9,7 @@ import org.springframework.data.jpa.repository.Lock;
 
 public interface MesaRepository extends JpaRepository<Mesa, Long> {
 
+    @Override
     @Lock(LockModeType.PESSIMISTIC_WRITE)
     Optional<Mesa> findById(Long id);
 
